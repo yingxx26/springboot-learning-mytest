@@ -4,54 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-        <module>springboot-outside-config</module>
-        <module>springboot-event-driven</module>
-        <module>springboot-stream-changeDbInfo</module>
-        <module>springboot-stream-saveLog</module>
-        <module>springboot-scan-annotation</module>
-        <module>springboot-dbtemplate-autoconfigure</module>
-        <module>springboot-dbtemplate</module>
-        <module>springboot-dbtemplate-starter</module>
-        <module>springboot-dbtemplate-test</module>
-        <module>springboot-mongodb</module>
-        <module>springboot-orm</module>
-        <module>springboot-dynamic-datasource</module>
-        <module>springboot-split-table</module>
-        <module>springboot-redis</module>
-        <module>springboot-elasticsearch</module>
-        <module>springboot-swagger</module>
-        <module>springboot-httpclient</module>
-        <module>springboot-slice-upload</module>
-        <module>springboot-office-preview</module>
-        <module>springboot-prometheus</module>
-        <module>springboot-downgrade</module>
-      <module>springboot-docker</module>
-      <module>springboot-exclude-web</module>
-      <module>springboot-easyexcel</module>
-        <module>springboot-apollo</module>
-        <module>springboot-mq-idempotent-consume</module>
-        <module>springboot-unit-resp</module>
-        <module>springboot-mybatis-autoId</module>
-        <module>springboot-code-authorization</module>
-        <module>springboot-chaincontext</module>
-        <module>springboot-generate-sqlscript</module>
-        <module>springboot-mybatisplus-tenant</module>
-        <module>springboot-xxl-job-executor</module>
-        <module>springboot-aop-spel</module>
-        <module>springboot-custom-eureka</module>
-        <module>springboot-sentinel</module>
-        <module>springboot-transation-after-commit</module>
-        <module>springboot-agent</module>
-        <module>springboot-arthas</module>
-        <module>springboot-datasouce-encrypt</module>
-        <module>springboot-feign-servicename-route</module>
-        <module>springboot-influxdb</module>
-        <module>springboot-registrationcenter-switch</module>
         <module>springboot-spi-ioc</module>
-        <module>springboot-maven-plugin</module>
-        <module>springboot-custom-actuator-endpoint</module>
-        <module>springboot-scan-thirdparty-service</module>
-        <module>springboot-spi-enhance</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

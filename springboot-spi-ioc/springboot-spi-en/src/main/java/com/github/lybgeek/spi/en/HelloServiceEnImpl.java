@@ -11,6 +11,7 @@ public class HelloServiceEnImpl implements HelloService {
     @Override
     @InterceptorMethod(interceptorClasses = HelloServiceEnInterceptor.class)
     public String sayHello(String username) {
-        return "hello：" + username;
+        String javaVersion = System.getProperty("java.version");
+        return "hello：" + username + " --jdk: "+javaVersion;
     }
 }

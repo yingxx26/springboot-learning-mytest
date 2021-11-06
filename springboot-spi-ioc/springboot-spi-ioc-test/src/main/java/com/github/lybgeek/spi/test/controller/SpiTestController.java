@@ -14,11 +14,18 @@ public class SpiTestController {
 
 
     @SpiAutowired("helloServiceEnImpl")
-    private HelloService helloService;
+    private HelloService helloEnService;
 
+    @SpiAutowired("helloServiceCnImpl")
+    private HelloService helloCnService;
 
-    @GetMapping(value="/{username}")
-    public String sayHello(@PathVariable("username") String username){
-        return helloService.sayHello(username);
+    @GetMapping(value="/en/{username}")
+    public String sayEnHello(@PathVariable("username") String username){
+        return helloEnService.sayHello(username);
+    }
+
+    @GetMapping(value="/cn/{username}")
+    public String sayCnHello(@PathVariable("username") String username){
+        return helloCnService.sayHello(username);
     }
 }

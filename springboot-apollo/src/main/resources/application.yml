@@ -1,7 +1,0 @@
-spring:
-  application:
-    name: springboot-apollo
-#  profiles:
-#    active: apollo
-  main:
-    allow-bean-definition-overriding: true

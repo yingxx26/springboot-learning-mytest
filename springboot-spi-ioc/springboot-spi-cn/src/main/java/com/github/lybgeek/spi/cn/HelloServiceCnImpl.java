@@ -11,6 +11,7 @@ public class HelloServiceCnImpl implements HelloService {
     @Override
     @InterceptorMethod(interceptorClasses = {HelloServiceCnInterceptor.class, HelloServiceCnOtherInterceptor.class})
     public String sayHello(String username) {
-        return "你好：" + username;
+        String javaVersion = System.getProperty("java.version");
+        return "你好：" + username + " --jdk: "+javaVersion;
     }
 }

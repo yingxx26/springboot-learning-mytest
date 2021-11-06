@@ -1,6 +1,0 @@
-
-hello:
-  desc: hello world
-spring:
-  profiles:
-    include: author
